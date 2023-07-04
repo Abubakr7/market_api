@@ -1,0 +1,198 @@
+{
+  "users": [
+    {
+      "email": "john@gmail.com",
+      "password": "$2a$10$797/BmMOrVek32mB1t3bOO2A9y01H1mj7vGT8pv7xpcOuL6ccTD92",
+      "id": 1,
+      "role_id": 1,
+      "name": "John",
+      "img": "uploads\\1685972689844.jpg"
+    },
+    {
+      "email": "jane@gmail.com",
+      "password": "$2a$10$X3PL4uCAWt77O4cAxkeylukfy.9xlqWd15HfSRCgqGNJvHJBLoabq",
+      "id": 2,
+      "role_id": 2,
+      "name": "Jane",
+      "img": "uploads\\1685972902283.jpg"
+    }
+  ],
+  "products": [
+    {
+      "name": "Iphone 13",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "brandId": 1,
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads\\1686047767302.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads\\1686047767305.jpg"
+        }
+      ],
+      "id": 1,
+      "price": "99"
+    },
+    {
+      "name": "Iphone 15",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "brandId": 1,
+      "description": "",
+      "media": [],
+      "id": 2
+    },
+    {
+      "name": "Iphone 9",
+      "categoryId": 1,
+      "subCategoryId": 2,
+      "brandId": 1,
+      "description": "<h1>Hello 1</h1>",
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads\\1686063500773.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads\\1686063500774.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads\\1686063500775.jpg"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Iphone 8",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "brandId": 1,
+      "description": "<ol><li>s</li></ol>",
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads\\1686140104271.jpg"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Iphone 3",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "brandId": 1,
+      "description": "<ol><li>s</li></ol>",
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads\\1686140194970.jpg"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "Poco F4 8/256GB Night Black",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "brandId": 1,
+      "proc": [
+        {
+          "key": "Процессор",
+          "value": "Qualcomm Snapdragon 870"
+        },
+        {
+          "key": "Количество ядер процессора",
+          "value": "8"
+        }
+      ],
+      "description": "<p>Hello</p>",
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads\\1686231590522.jpg"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "sss",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "brandId": 2,
+      "proc": [
+        {
+          "key": "Процессор",
+          "value": "Qualcomm Snapdragon 870"
+        },
+        {
+          "key": "Количество ядер процессора",
+          "value": "8"
+        }
+      ],
+      "sputnik": [
+        {
+          "value": "A-GPS, ГЛОНАСС, Бэйдоу, QZSS, Galileo, GPS (L1+L5), GLONASS (L1), BeiDou (B1), Galileo (E1+E5a), BeiDou (B2), NavIC System, QZSS (L1 + L5)",
+          "key": "Спутниковая навигация"
+        }
+      ],
+      "description": "<p>ss</p>",
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads\\1686232754042.jpg"
+        }
+      ],
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cмартфоны и планшеты",
+      "img": "uploads\\1685790811796.jpg"
+    },
+    {
+      "name": "Бытовая техника",
+      "img": "uploads\\1685790303731.jpg",
+      "id": 2
+    }
+  ],
+  "subCategories": [
+    {
+      "name": "Smartphones",
+      "categoryId": 1,
+      "brands": [
+        1
+      ],
+      "img": "uploads\\1685804256216.jpg",
+      "id": 1
+    },
+    {
+      "name": "кнопочные",
+      "categoryId": 1,
+      "brands": [
+        2
+      ],
+      "img": "uploads\\1686228565024.jpg",
+      "id": 2
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "img": "uploads\\1685791556692.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Nokia",
+      "img": "uploads\\1685791600931.jpg"
+    }
+  ],
+  "orders": []
+}
